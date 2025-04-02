@@ -40,6 +40,78 @@
                     </li>
                 </ul>
             </address>
+            <button class="header-btn-menu" type="button">
+                <svg class="burger" width="24" height="24" data-menu-open>
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="mobile-menu" data-menu>
+            <div class="mobile-menu-container container">
+                <button class="mobile-menu-close" data-menu-close>
+                    <svg class="mobile-close-button" width="8" height="8">
+                        <use href="./images/icons.svg#icon-cross" class="svg-close"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-ul">
+                        <li class="mobile-menu-li">
+                            <a href="" class="mobile-menu-link">Studio</a>
+                        </li>
+                        <li class="mobile-menu-li">
+                            <a href="" class="mobile-menu-link">Portfolio</a>
+                        </li>
+                        <li class="mobile-menu-li">
+                            <a href="" class="mobile-menu-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="mobile-address">
+                    <ul class="mobile-address-ul">
+                        <li class="mobile-address-li">
+                            <a href="tel:+110001111111" class="menu-address-link">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="mobile-address-li">
+                            <a href="mailto:info@devstudio.com" class="menu-address-link">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+
+                <div class="mobile-socmedia">
+                    <ul class="mobile-menu-item-icon">
+                        <li class="mobile-menu-list-icon">
+                            <a href="" class="mobile-menu-link-icon">
+                                <svg width="20" height="20" class="mobile-menu-icons">
+                                    <use  href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-list-icon">
+                            <a href="" class="mobile-menu-link-icon">
+                                <svg width="20" height="20" class="mobile-menu-icons">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-list-icon">
+                            <a href="" class="mobile-menu-link-icon">
+                                <svg width="20" height="20" class="mobile-menu-icons">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li >
+                        <li class="mobile-menu-list-icon">
+                            <a href="" class="mobile-menu-link-icon">
+                                <svg width="20" height="20" class="mobile-menu-icons">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
     </header>
     <main>
@@ -66,9 +138,9 @@
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="section-two-logo">Strategy</h3>
-                        <p class="section-two-p">Our goal is to identify the business
-                            problem to walk away with the perfect and creative solution. </p>
+                            <h3 class="section-two-logo">Strategy</h3>
+                            <p class="section-two-p">Our goal is to identify the business
+                                problem to walk away with the perfect and creative solution. </p>
                     </li>
     
                     <li class="section-two-item">
@@ -399,9 +471,11 @@
             </div>
     </footer>
 
+<!-- footer end -->
+
 <!-- overlay -->
 
-<div class="backdrop " data-modal>
+<div class="backdrop" data-modal>
     <!-- up, div class "is open" -->
     <div class="modal">
         <button class="modal-form-button" type="button" data-modal-close>
@@ -448,7 +522,7 @@
             </div>
 
 
-            <div class="checkbox ">
+            <div class="checkbox">
                 <input type="checkbox" id="user-privacy" value="true" name="user-privacy"
                     class="user-privacy visually-hidden" />
                 <label for="user-privacy" class="privacy-label">
@@ -467,6 +541,7 @@
 </div>
 
 <script src="./js/modal.js"></script>
+<script src="./js/mobile.js"></script>
 
 </body>
 </html>
